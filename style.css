@@ -1,6 +1,6 @@
 *{
     font-family: 'Source Code Pro', monospace;
-    background-color: #1f1f1f;
+    background-color: #2b2b2b;
 }
 
 
@@ -27,13 +27,59 @@ a{
 }
 
 #colum1{
-    border: 3px solid;
-    border-color: aliceblue;
+    border: 3px solid purple;
+    border-radius: 10px;
     padding-bottom: 30px;
 }
 
 #colum2{
-    border: 3px solid;
-    border-color: aliceblue;
+    border: 3px solid   purple;
+    border-radius: 10px;
     padding-bottom: 30px;
+}
+
+div#box{
+    border-radius: 10px;
+    background-color: rgb(255, 0, 255);
+    max-width: none;
+    min-width: none;
+    max-height: 50px;
+    width: auto;
+    height: 50px;
+}
+
+div#box-1{
+    border: black 6px;
+    border-top-style: solid;
+    border-left-style: dashed;
+    border-bottom-style: dotted;
+    border-right-style: double;
+    border-radius: 10px;
+    background-color: red;
+    width: 150px;
+    height: 150px;
+}
+
+div#box-2{
+    border: black solid 6px;
+    border-radius: 10px;
+    background-color: rgb(252, 100, 100);
+    width: 150px;
+    height: 150px;
+}
+
+div#box-3{
+    border: black solid 6px;
+    border-radius: 10px;
+    background-color: rgb(252, 200, 200);
+    width: 150px;
+    height: 150px;
+}
+
+div#box-4{
+    border: black solid 6px;
+    border-radius: 10px;
+    background-color: rgb(252, 300, 300);
+    width: 150px;
+    height: 150px;
 }
