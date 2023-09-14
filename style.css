@@ -33,7 +33,7 @@ a{
 }
 
 #colum2{
-    border: 3px solid   purple;
+    border: 3px solid purple;
     border-radius: 10px;
     padding-bottom: 30px;
 }
@@ -62,7 +62,9 @@ div#box-1{
 
 div#box-2{
     border: black solid 6px;
-    border-radius: 10px;
+    /** border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px; **/
+    border-radius: 50px 5px;
     background-color: rgb(252, 100, 100);
     width: 150px;
     height: 150px;
@@ -79,7 +81,27 @@ div#box-3{
 div#box-4{
     border: black solid 6px;
     border-radius: 10px;
+    border-right-color: #ff0000;
+    border-top-color: blue;
+    border-left-color: green;
     background-color: rgb(252, 300, 300);
     width: 150px;
     height: 150px;
+}
+
+.rainbow-box {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(45deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #8b00ff, #ff00ff);
+    background-size: 500% 500%;
+    animation: rainbow-animation 5s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
 }
