@@ -1,13 +1,13 @@
 *{
     font-family: 'Source Code Pro', monospace;
-    background-color: #2b2b2b;
+    background: #252525 fixed;
 }
 
 
 p.message{
+    color: white;
     text-align: center;
     font-size: 12pt;
-    color: #fffdfd;
 }
 
 h1{
@@ -23,6 +23,7 @@ a{
     text-decoration: none;
     color: #fffdfd;
     border: 3px solid;
+    border-color: purple;
     text-align: center;
 }
 
@@ -30,22 +31,33 @@ a{
     border: 3px solid purple;
     border-radius: 10px;
     padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px 30px;
 }
 
 #colum2{
     border: 3px solid purple;
     border-radius: 10px;
     padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px 30px ;
 }
 
 div#box{
     border-radius: 10px;
-    background-color: rgb(255, 0, 255);
+    background: purple;
     max-width: none;
     min-width: none;
     max-height: 50px;
     width: auto;
     height: 50px;
+    margin: 0px 30px 0px 30px;
+}
+
+.boxes{
+    display: flex;
 }
 
 div#box-1{
@@ -55,9 +67,10 @@ div#box-1{
     border-bottom-style: dotted;
     border-right-style: double;
     border-radius: 10px;
-    background-color: red;
+    background: red;
     width: 150px;
     height: 150px;
+    margin-right: 100px;
 }
 
 div#box-2{
@@ -65,17 +78,19 @@ div#box-2{
     /** border-top-left-radius: 50px;
     border-bottom-right-radius: 50px; **/
     border-radius: 50px 5px;
-    background-color: rgb(252, 100, 100);
+    background: rgb(252, 100, 100);
     width: 150px;
     height: 150px;
+    margin-right: 100px;
 }
 
 div#box-3{
     border: black solid 6px;
     border-radius: 10px;
-    background-color: rgb(252, 200, 200);
+    background: rgb(252, 200, 200);
     width: 150px;
     height: 150px;
+    margin-right: 100px;
 }
 
 div#box-4{
@@ -84,9 +99,10 @@ div#box-4{
     border-right-color: #ff0000;
     border-top-color: blue;
     border-left-color: green;
-    background-color: rgb(252, 300, 300);
+    background: rgb(252, 300, 300);
     width: 150px;
     height: 150px;
+    margin-right: 100px;
 }
 
 .rainbow-box {
@@ -104,4 +120,10 @@ div#box-4{
     100% {
         background-position: 100% 50%;
     }
+}
+
+div#image{
+    display: block;
+    margin: 300px auto 300px auto;
+    width: 50%;
 }
