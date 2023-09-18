@@ -1,0 +1,32 @@
+li{
+    display: inline-block;
+}
+
+li a{
+    padding-right: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+.box{
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 7px;
+    background-color: rgb(247, 247, 247);
+}
+
+img{
+    width: 750px;
+}
+
+#image-1{
+    visibility: visible;
+}
+
+#image-2{
+    height: 655.75px;
+}
