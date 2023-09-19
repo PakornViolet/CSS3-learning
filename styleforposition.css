@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     height: 5000px;
     width: 5000px;
@@ -37,6 +41,7 @@ body{
     background-color: blue;
     position: sticky;
     top: 10px;
+    left: 200px;
 }
 
 #box-6{
@@ -44,7 +49,9 @@ body{
 }
 
 #box-7{
+    display: block;
     background-color: violet;
+    margin-top: 1000px;
 }
 
 .container{
