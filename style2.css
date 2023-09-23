@@ -1,3 +1,9 @@
+body{
+    background: grey;
+    color: white;
+    text-align: center;
+}   
+
 li{
     display: inline-block;
 }
@@ -16,7 +22,7 @@ a:link{
     padding: 10px;
     border-radius: 20px;
     margin: 7px;
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(39, 39, 39);
 }
 
 img{
@@ -30,3 +36,11 @@ img{
 #image-2{
     height: 655.75px;
 }
+
+h1{
+    display: none;
+}
+
+
+/** smart phone **/
+@media (max-width:500px)
