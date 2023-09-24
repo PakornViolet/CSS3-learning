@@ -41,6 +41,59 @@ h1{
     display: none;
 }
 
-
 /** smart phone **/
-@media (max-width:500px)
+@media only screen and (max-width:500px){
+    body{
+        background-color: red;
+    }
+    #smartphone h1{
+        display: block;
+    }
+}
+
+/** tablets **/
+@media only screen and (min-width:501px) and (max-width:768px){
+    body{
+        background-color: pink;
+    }
+    #tablets h1{
+        display: block;
+        color: black;
+    }
+}
+
+/** Laptops, Desktops **/
+@media only screen and (min-width:769px) and (max-width:1200px) {
+    body{
+        background-color: green;
+    }
+    #normal h1{
+        display: block;
+        color: black;
+    }
+    
+}
+
+/** Laptops, Desktops **/
+@media only screen and (min-width:1201px){
+    body{
+        background-color: yellow;
+    }
+    #widescreen h1{
+        display: block;
+        color: black;
+    }
+    
+}
+
+/* landscape
+@media only screen and (max-width:1201px){
+    body{
+        background-color: orange;
+    }
+    #landscape h1{
+        display: block;
+        color: black;
+    }
+    
+} */
