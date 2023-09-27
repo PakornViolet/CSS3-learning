@@ -33,40 +33,33 @@ p{
 
 .container{
     display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    background-color: rgb(255, 255, 255);
 }
 
-#box-1{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(173, 0, 173);
-    margin-left: 145px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+.item{
+    color: white;
+    background: rgb(173, 0, 173);
+    border: 3px solid rgb(173, 0, 173);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center; 
+    /* flex: 1; */
 }
 
-#box-2{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(173, 0, 173);
-    margin-left: 145px;
-    margin-bottom: 500px;
-    margin-top: 50px;
+.item-2{
+    flex-shrink: 2;
 }
 
-#box-3{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(173, 0, 173);
-    margin-left: 145px;
-    margin-bottom: 500px;
-    margin-top: 50px;
+.item-1{
+    flex-basis: 300px;
 }
 
-#box-4{
-    width: 300px;
-    height: 300px;
-    background-color: rgb(173, 0, 173);
-    margin-left: 145px;
-    margin-bottom: 500px;
-    margin-top: 50px;
+.item-3{
+    flex-grow: 2;
 }
+
