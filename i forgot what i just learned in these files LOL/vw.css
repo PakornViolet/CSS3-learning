@@ -31,11 +31,12 @@ p{
     border-radius: 5px;
 }
 
-.container{
+.flex-container{
     display: flex;
     flex-direction: row;
     /* flex-wrap: wrap; */
-    background-color: rgb(255, 255, 255);
+    background-color: black;
+    justify-content: space-around;
 }
 
 .item{
@@ -52,14 +53,13 @@ p{
 }
 
 .item-2{
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
 
 .item-1{
-    flex-basis: 300px;
+    /* flex-basis: 300px; */
 }
 
 .item-3{
-    flex-grow: 2;
+    /* flex-grow: 2; */
 }
-
