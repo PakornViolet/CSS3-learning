@@ -10,13 +10,21 @@
 .grid-container{
     display: grid;
     /* grid-template-rows: 250px 250px 250px; */
-    grid-template-rows: repeat(3, 250px);
+    grid-template-rows: repeat(3, 122px);
     grid-template-columns: auto auto auto;
+    /* grid-template-columns: repeat(3, 250px); */
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .item:first-child{
     background-color: yellow;
     /* grid-column-start: 1;
     grid-column-end: 4; */
+    grid-column: 1/4;
+}
+
+.item:last-child{
+    background-color: red;
     grid-column: 1/4;
 }
